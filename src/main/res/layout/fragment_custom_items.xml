@@ -10,8 +10,8 @@
         android:id="@+id/one_items_1_yn_counter"
         android:layout_marginTop="@dimen/fragment_oneitems_yoncounter_margintop"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:layout_width="@dimen/fragment_oneitems_yoncounter_height_and_width"
-        android:layout_height="@dimen/fragment_oneitems_yoncounter_height_and_width">
+        android:layout_width="@dimen/fragment_oneitems_yoncounter_width"
+        android:layout_height="@dimen/fragment_oneitems_yoncounter_width">
     </com.yesorno.zgq.yesorno.customview.YesOrNOWithCounter>
 
 </FrameLayout>

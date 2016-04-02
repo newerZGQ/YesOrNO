@@ -7,7 +7,8 @@
     <dimen name="activity_main_background_margintop">450dp</dimen>
 
     <!-- related to fragment oneitems -->
-    <dimen name="fragment_oneitems_yoncounter_height_and_width">275dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_width">275dp</dimen>
+    <dimen name="fragment_oneitems_yoncounter_height">280dp</dimen>
     <dimen name="fragment_oneitems_yoncounter_margintop">30dp</dimen>
     <dimen name="fragment_oneitems_yoncounter_marginbottom">20dp</dimen>
     <dimen name="fragment_oneitems_buttons_layout_height">250dp</dimen>
