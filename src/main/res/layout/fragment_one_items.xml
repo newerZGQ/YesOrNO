@@ -35,7 +35,7 @@
                 app:first_item_color="@color/colorWhite"
                 app:first_item_title="Yes!"
                 app:item_count="2"
-                app:secod_item_title="No....." />
+                app:secod_item_title="No.." />
         </LinearLayout>
     </com.github.glomadrian.dashedcircularprogress.DashedCircularProgress>
     <LinearLayout

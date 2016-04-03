@@ -18,4 +18,7 @@
     <color name="colorBottomButtonsCircle">#BBBBBB</color>
     <color name="colorBottomButtonsInnerCircle">#E0E0E0</color>
 
+    //related to SignOfCircle
+    <color name="colorSignOfCircle">#88FFFFFF</color>
+
 </resources>

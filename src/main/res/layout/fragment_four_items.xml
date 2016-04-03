@@ -26,6 +26,18 @@
             xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+            <com.yesorno.zgq.yesorno.customview.SignOfCircle xmlns:app="http://schemas.android.com/apk/res/com.yesorno.zgq.yesorno"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cirlce_color="@color/colorSignOfCircle"
+                app:first_sign="1"
+                app:mode="4"
+                app:second_sign="2"
+                app:text_color="@color/colorSignOfCircle"
+                app:text_size="8sp"
+                app:third_sign="3"
+                app:forth_sign="4"/>
             <com.yesorno.zgq.yesorno.customview.YesOrNoView
                 android:layout_gravity="center_horizontal"
                 android:id="@+id/yes_or_no1"
@@ -79,7 +91,7 @@
         android:background="@color/colorFragmentsBottomBackground"
         android:orientation="vertical">
         <include
-            layout="@layout/fragment_three_items_bottom_buttons"
+            layout="@layout/fragment_four_items_bottom_buttons"
             android:id="@+id/one_items_bottom_buttons" />
     </LinearLayout>
 </LinearLayout>
