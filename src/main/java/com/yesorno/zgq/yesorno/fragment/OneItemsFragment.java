@@ -2,10 +2,11 @@ package com.yesorno.zgq.yesorno.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import com.github.glomadrian.dashedcircularprogress.DashedCircularProgress;
@@ -116,6 +117,13 @@ public class OneItemsFragment extends Fragment {
                 if (v == circularProgress.getMax()) {
                     yesOrNoView1.stop();
                 }
+            }
+        });
+        circularProgress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Animation shake = AnimationUtils.loadAnimation(getActivity(), R.anim.shake_x);//加载动画资源文件
+                circularProgress.startAnimation(shake); //给组件播放动画效果
             }
         });
     }

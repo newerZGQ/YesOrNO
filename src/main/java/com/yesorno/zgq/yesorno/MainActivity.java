@@ -10,6 +10,8 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.LinearLayout;
 
+import com.umeng.analytics.AnalyticsConfig;
+import com.umeng.analytics.MobclickAgent;
 import com.yesorno.zgq.yesorno.fragment.CustomItemsFragment;
 import com.yesorno.zgq.yesorno.fragment.FourItemsFragment;
 import com.yesorno.zgq.yesorno.fragment.OneItemsFragment;
@@ -45,12 +47,21 @@ public class MainActivity extends FragmentActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MobclickAgent.setDebugMode( true );
         setContentView(R.layout.activity_main);
         initFragmentListData();
         initTitleListData();
         getMyFragmentManager();
         initView();
         setViewContent();
+    }
+    public void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+    public void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
     private void getMyFragmentManager(){
         fragmentManager = getSupportFragmentManager();

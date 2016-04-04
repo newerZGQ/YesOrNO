@@ -26,4 +26,9 @@
         <item name="android:layout_height">@dimen/fragment_threeitems_yon_height_and_height</item>
     </style>
 
+    <!-- fragment custom items textview -->
+    <style name="fragment_custom_items_textview">
+    </style>
+
+
 </resources>
