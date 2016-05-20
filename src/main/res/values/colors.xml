@@ -30,4 +30,6 @@
     <color name="cl_snappingstepper_text_bg">#2b8ccd</color>
     <color name="cl_snappingstepper_text">#000000</color>
 
+    //related to customfragment bottom buttons
+    <color name="color_customfragment_target_text">#008000</color>
 </resources>

@@ -27,8 +27,14 @@
 
     <!-- related to customview_bottom_buttons -->
     <dimen name="customview_bottom_buttons_smaller_height_and_width">50dp</dimen>
-    <dimen name="customview_bottom_buttons_marginleft">30dp</dimen>
-    <dimen name="customview_bottom_buttons_marginright">30dp</dimen>
+    <dimen name="customview_bottom_buttons_marginleft">50dp</dimen>
+    <dimen name="customview_bottom_buttons_marginright">50dp</dimen>
+
+    <dimen name="customview_bottom_buttons_puls_minus_margin">50dp</dimen>
+    <dimen name="customview_bottom_buttons_plus_minus_tv_width">60dp</dimen>
+    <dimen name="customview_bottom_buttons_show_tv_width">0dp</dimen>
+    <dimen name="customview_bottom_buttons_tv_textsize">20sp</dimen>
+    <dimen name="customview_bottom_buttons_height">50dp</dimen>
 
 
     <!-- related to snappingstepper_ -->

@@ -1,4 +1,4 @@
-package com.yesorno.zgq.yesorno;
+package com.yesorno.zgq.useofdrawable;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

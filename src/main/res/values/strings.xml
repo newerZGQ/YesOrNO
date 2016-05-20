@@ -13,4 +13,6 @@
     <string name="ctm_items_start_title">自定义</string>
     <string name="ctm_items_tyring_title">Trying...</string>
     <string name="ctm_items_done_title">Done!</string>
+    <string name="ctm_items_plus_title">+</string>
+    <string name="ctm_items_minus_title">-</string>
 </resources>
